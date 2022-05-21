@@ -31,13 +31,18 @@ p {
 }
 
 img {
-  display: flex;
-  justify-content: center;
-  width: 900px;
+  width: 500px;
   margin: 20px, auto;
 }
 
 .links-within {
   color: var(--accent-color);
   font-size: 18px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.email-link {
+  color: var(--accent-color);
 }
