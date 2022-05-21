@@ -1,7 +1,7 @@
 :root {
-  --primary-color: rgba(0, 0, 255, 0.966);
-  --accent-color: rgba(255, 0, 0, 0.788);
-  --secondary-color: rgb(248, 242, 238);
+  --primary-color: #4b0206;
+  --accent-color: #d15300;
+  --secondary-color: #fff3c3;
 }
 
 body {
@@ -9,10 +9,18 @@ body {
 }
 
 h1 {
+  color: var(--primary-color);
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
 }
 
 h2 {
+  color: var(--accent-color);
   text-align: center;
+  font-size: medium;
+}
+
+p {
+  color: var(--primary-color);
+  font-size: medium;
 }
